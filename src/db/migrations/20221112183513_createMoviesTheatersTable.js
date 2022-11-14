@@ -11,7 +11,7 @@ exports.up = function(knex) {
     table // Foreign key references ID to a particular theater
         .foreign("theater_id")
         .references("theater_id")
-        .inTable("theater")
+        .inTable("theaters")
         .onDelete("cascade")
     table.boolean("is_showing").notNullable() // A representation of weather or not the movie is currently showing in the referenced theater
   })

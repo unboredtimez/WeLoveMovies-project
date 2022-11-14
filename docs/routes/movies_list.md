@@ -7,7 +7,7 @@ There are two different cases to consider:
 - `GET /movies`
 - `GET /movies?is_showing=true`
 
-### GET /movies
+### GET /movies -- COMPLETED
 
 Create a route that responds to the following request:
 
