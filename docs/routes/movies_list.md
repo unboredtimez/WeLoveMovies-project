@@ -33,7 +33,7 @@ The response from the server should look like the following:
 }
 ```
 
-### GET /movies?is_showing=true
+### GET /movies?is_showing=true -- COMPLETED
 
 Update your route so that it responds to the following request:
 

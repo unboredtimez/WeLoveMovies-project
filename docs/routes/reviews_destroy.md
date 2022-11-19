@@ -2,7 +2,7 @@
 
 This route will delete a review by ID. If the ID is incorrect, a `404` will be returned.
 
-### DELETE /reviews/:reviewId
+### DELETE /reviews/:reviewId -- COMPLETED
 
 Create a route that responds to the following request:
 
@@ -12,7 +12,7 @@ DELETE /reviews/:reviewId
 
 The server should respond with `204 No Content`.
 
-### DELETE /reviews/:reviewId (incorrect ID)
+### DELETE /reviews/:reviewId (incorrect ID) -- COMPLETED
 
 If the given ID does not match an existing review, a response like the following should be returned:
 

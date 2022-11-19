@@ -9,7 +9,7 @@ There are four different cases to consider:
 - `GET /movies/:movieId/theaters`
 - `GET /movies/:movieId/reviews`
 
-### GET /movies/:movieId
+### GET /movies/:movieId - COMPLETED
 
 Create a route that responds to the following request:
 
@@ -32,7 +32,7 @@ The response from the server should look like the following.
 }
 ```
 
-### GET /movies/:movieId (incorrect ID)
+### GET /movies/:movieId (incorrect ID) - COMPLETED
 
 If the given ID does not match an existing movie, a response like the following should be returned:
 
@@ -44,7 +44,7 @@ If the given ID does not match an existing movie, a response like the following 
 
 The response _must_ have `404` as the status code.
 
-### GET /movies/:movieId/theaters
+### GET /movies/:movieId/theaters -- COMPLETED
 
 Update your route so that it responds to the following request:
 
@@ -78,7 +78,7 @@ The response from the server for a request to `/movies/1/theaters` should look l
 }
 ```
 
-### GET /movies/:movieId/reviews
+### GET /movies/:movieId/reviews -- COMPLETED
 
 Update your route so that it responds to the following request:
 

@@ -6,7 +6,7 @@ There is one case to consider:
 
 - `GET /theaters`
 
-### GET /theaters
+### GET /theaters - COMPLETED
 
 Create a route that responds to the following request:
 
